@@ -26,7 +26,7 @@ public class IntegerDuplicateDeleterBetterTest {
 
         // When
         Integer expected = 3;
-        Integer actual = integerDuplicateDeleter.countNumberOfOccurences(2);
+        Integer actual = integerDuplicateDeleter.countNumberOfOccurrences(2);
 
         //Expected
         Assert.assertEquals("The value should be 3", expected, actual);
